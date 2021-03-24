@@ -25,7 +25,7 @@ class FibonacciRecursion {
             numbers.add(b);
             sequence(number - 2);
             showMessageDialog(null,
-                        numbers);
+                        "The first " + number + " numbers of the Fibonacci sequence are\n" + numbers);
         } catch (NumberFormatException ex) {
             showMessageDialog(null,
                     "Goodbye :)");
